@@ -48,20 +48,18 @@
 
 
 @media only screen and (min-width: 621px) {
-    .chicken {
-        width: 100%;
-    }
 
     .tablet {
         display: flex;
+        width: 100%;
     }
 
-    .chicken {
+    .tablet .common {
         width: 50%;
     }
 
-    .beef {
-        width: 50%;
+    .common {
+        width: 85%;
     }
 }
 
@@ -72,5 +70,14 @@
 
     .tablet {
         display: flex;
+        width: 100%;
+    }
+
+    .tablet .common {
+        width: 50%;
+    }
+
+    .common {
+        width: 30%;
     }
 }
