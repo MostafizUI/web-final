@@ -1,0 +1,76 @@
+.menu {
+    border: 2px solid mediumvioletred;
+    width: 100%;
+}
+
+.menu h2 {
+    text-align: center;
+}
+
+.common {
+    background-color: cornflowerblue;
+    margin: 10px 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.common a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid white;
+
+
+}
+
+.common-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.chicken a {
+    background-color: pink;
+    border: 2px solid black;
+}
+
+.beef a {
+    background-color: red;
+    border: 2px solid black;
+}
+
+.sushi a {
+    background-color: rgb(227, 240, 162);
+    border: 2px solid black;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 621px) {
+    .chicken {
+        width: 100%;
+    }
+
+    .tablet {
+        display: flex;
+    }
+
+    .chicken {
+        width: 50%;
+    }
+
+    .beef {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 878px) {
+    .desktop {
+        display: flex;
+    }
+
+    .tablet {
+        display: flex;
+    }
+}
